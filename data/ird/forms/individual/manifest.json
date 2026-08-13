@@ -1,0 +1,90 @@
+{
+  "collection": "Sri Lanka IRD individual income-tax forms",
+  "source_page": "https://www.ird.gov.lk/en/Downloads/SitePages/Forms.aspx?menuid=1603",
+  "source_page_checked_at_utc": "2026-08-13T07:32:35.076382+00:00",
+  "entries": [
+    {
+      "assessment_year": "2025-2026",
+      "status": "published",
+      "documents": [
+        {
+          "id": "return_of_income",
+          "title": "Return of Income (Asmt_IIT_001_E)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_Individuals_Doc/Asmt_IIT_001_2025_2026_E.pdf",
+          "local_path": "return-pack/Asmt_IIT_001_2025_2026_E.pdf",
+          "status": "downloaded",
+          "bytes": 778937,
+          "sha256": "d89252750a27800e82139de8543eaa5be0f48236f3c61df47c95dea01aab6161"
+        },
+        {
+          "id": "return_schedules",
+          "title": "Schedules to Return of Income (Asmt_IIT_002_E)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_Individuals_Doc/Asmt_IIT_002_2025_2026_E.pdf",
+          "local_path": "return-pack/Asmt_IIT_002_2025_2026_E.pdf",
+          "status": "downloaded",
+          "bytes": 3107459,
+          "sha256": "13941f60b8f45824eb5eb5d6d97387dd25c7078ee86c4e35a555b84fbcbb0264"
+        },
+        {
+          "id": "assets_and_liabilities",
+          "title": "Statement of Assets and Liabilities (Asmt_IIT_003_E)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_Individuals_Doc/Asmt_IIT_003_2025_2026_E.pdf",
+          "local_path": "return-pack/Asmt_IIT_003_2025_2026_E.pdf",
+          "status": "downloaded",
+          "bytes": 310178,
+          "sha256": "3a520cc3206ae2cba9dbd7b4e9e8cf522430dc9beb1e83b95f1193b3ea4bbc43"
+        },
+        {
+          "id": "return_completion_guide",
+          "title": "Guide to filling the Return and Schedules (Asmt_IIT_004_E)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_Individuals_Doc/Asmt_IIT_004_2025_2026_E.pdf",
+          "local_path": "return-pack/Asmt_IIT_004_2025_2026_E.pdf",
+          "status": "downloaded",
+          "bytes": 1982988,
+          "sha256": "7e789b520538b45750d874fd67b6fc0ab277fad8b8597d7f01f4934979fa64d6"
+        },
+        {
+          "id": "estimated_tax_statement",
+          "title": "Statement of Estimated Income Tax Payable (SET_E)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_SET_Doc/SET_2025_2026_E.pdf",
+          "local_path": "estimated-tax/SET_2025_2026_E.pdf",
+          "status": "downloaded",
+          "bytes": 1011408,
+          "sha256": "a1a7e5a9b3ce3de0ae97c9f7097cf9458f682f0c82e1d721fa3c73937e825abb"
+        },
+        {
+          "id": "estimated_tax_credit_schedule",
+          "title": "Statement of Estimated Tax - Credit Schedule",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_SET_Doc/SET_Schedule_25_26(Tax_Credit)_E.pdf",
+          "local_path": "estimated-tax/SET_Schedule_25_26(Tax_Credit)_E.pdf",
+          "status": "downloaded",
+          "bytes": 626191,
+          "sha256": "b7a9e5995cf2306027eeec99a06e52d2c69d46baa1585a78dafe60eab85c0f65"
+        },
+        {
+          "id": "estimated_tax_guide",
+          "title": "Guide to estimated tax and quarterly instalments (SET-E 2025/2026)",
+          "url": "https://www.ird.gov.lk/en/Downloads/IT_SET_Doc/SET_25_26_Detail_Guide_E.pdf",
+          "local_path": "estimated-tax/SET_25_26_Detail_Guide_E.pdf",
+          "status": "downloaded",
+          "bytes": 1021048,
+          "sha256": "08add3f84a72e7bfcce7e90e48ad3651c801f4795a7087b187f17a524b9006a2"
+        },
+        {
+          "id": "apit_t10_certificate_amended",
+          "title": "APIT/T.10 Certificate of Income Tax Deductions (2025/2026, amended)",
+          "url": "https://www.ird.gov.lk/en/Downloads/Forms_APIT_Doc/APIT_T10_2526_AMD_EST.pdf",
+          "local_path": "employment-credit/APIT_T10_2526_AMD_EST.pdf",
+          "status": "downloaded",
+          "bytes": 1295407,
+          "sha256": "106c0fca632b400e68c540ae5a414daca358c1855bf6648738cb07b5de3910a5"
+        }
+      ]
+    },
+    {
+      "assessment_year": "2026-2027",
+      "status": "not_published_on_source_page",
+      "documents": []
+    }
+  ]
+}
