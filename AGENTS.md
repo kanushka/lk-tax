@@ -54,6 +54,21 @@ matter, cross-border treatment, or a substantial transaction.
 
 Do not claim to submit returns, access IRD accounts, or issue a binding tax opinion.
 
+## Privacy: public repository
+
+This repository is public. It holds only official source documents, scripts, and
+generic research. Never commit or push taxpayer-specific information, including:
+
+- names, TIN, NIC/passport numbers, addresses, phone numbers, emails, bank details
+- income figures, tax paid, APIT/AIT/WHT certificates, instalment amounts
+- employer names, completed returns, schedules, receipts, or payment records
+- personal facts from conversations (income types, reliefs claimed, residency)
+
+Keep personal answers, calculations, and filing drafts in the chat, or in the
+git-ignored `private/` directory. Research notes must stay generic; use placeholder
+values (for example `111122222`) in examples. Before any commit, review
+`git diff --cached` for personal data and stop if any is found.
+
 ## Corpus maintenance
 
 When refreshing or extending a collection:

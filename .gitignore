@@ -4,3 +4,10 @@ __pycache__/
 
 # macOS Finder metadata.
 .DS_Store
+
+# Personal taxpayer data. Never commit (see AGENTS.md "Privacy").
+private/
+personal/
+*.local.*
+.env
+.env.*
