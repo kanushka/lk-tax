@@ -34,7 +34,7 @@ a historical rule remains in force.
 
 ## Current coverage
 
-- Circulars: 67 official IRD circulars from 2008–2026.
+- Circulars: 68 official IRD circulars from 2008–2026.
 - Individual forms: complete 2025/2026 return pack plus estimated-tax and APIT/T.10
   material available on the IRD forms page at collection time.
 - 2026/2027 individual return forms: not yet published on the official forms page;
