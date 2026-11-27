@@ -36,7 +36,7 @@ class ExtractionError(Exception):
 def needs_ocr(text: str) -> bool:
     if len("".join(text.split())) < MIN_TEXT_CHARS:
         return True
-    words = [token.lower() for token in text.split() if token.isalpha()]
+    words = [token.lower() for token in re.findall(r"[A-Za-z]+", text)]
     if len(words) < MIN_WORD_TOKENS:
         return False
     common = sum(1 for word in words if word in COMMON_WORDS)

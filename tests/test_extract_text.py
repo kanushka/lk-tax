@@ -256,6 +256,10 @@ class ExtractTests(unittest.TestCase):
         garble = "vhfwlrq ri wkh lqodqg uhyhqxh dfw qr ri "
         self.assertTrue(extract_text.needs_ocr(garble * 6))
 
+    def test_needs_ocr_flags_real_garble_sample(self):
+        sample = "6HFWLRQRIWKH,QODQG5HYHQXH$FW1RRI &LUFXODU1R6(& "
+        self.assertTrue(extract_text.needs_ocr(sample * 12))
+
     def test_needs_ocr_accepts_english_paragraph(self):
         text = (
             "The tax shall be deducted by the person who pays the interest to a resident individual "
