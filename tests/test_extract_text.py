@@ -1,11 +1,13 @@
 import contextlib
 import io
 import json
+import os
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
+from unittest import mock
 
 
 SCRIPTS = Path(__file__).parents[1] / "scripts"
@@ -249,6 +251,68 @@ class ExtractTests(unittest.TestCase):
             self.assertTrue((root / "forms" / "individual" / "2025-2026" / "return-pack" / "f.pdf.md").exists())
             code, _ = run_main(["--data-root", str(root), "--check"], fake)
             self.assertEqual(code, 1)
+
+    def test_needs_ocr_flags_garbled_text_layer(self):
+        garble = "vhfwlrq ri wkh lqodqg uhyhqxh dfw qr ri "
+        self.assertTrue(extract_text.needs_ocr(garble * 6))
+
+    def test_needs_ocr_accepts_english_paragraph(self):
+        text = (
+            "The tax shall be deducted by the person who pays the interest to a resident individual "
+            "and is to be remitted to the Commissioner General in the manner that is prescribed for "
+            "income of this kind, as the Act requires, or by the date set out in the notice. "
+        ) * 2
+        self.assertFalse(extract_text.needs_ocr(text))
+
+    def test_needs_ocr_accepts_form_labels(self):
+        text = (
+            "Employment income 10\nBusiness income 20\nInvestment income 30\nOther income 40\n"
+            "Total assessable income (10+20+30+40) 50\nTax payable\nTax credit\nBalance\n"
+            "Name of employer\nAddress\nPeriod\nReference\nAmount\nDate\nSignature\nNotes\n"
+            "Part A Part B Part C Schedule Column Row Item Code Type Rate Gross Net\n"
+            "Total of the income for the year\n"
+        )
+        self.assertFalse(extract_text.needs_ocr(text))
+
+    def test_needs_ocr_ignores_numeric_tables(self):
+        text = " ".join(f"{i * 1234}.50" for i in range(40))
+        self.assertGreater(len("".join(text.split())), 100)
+        self.assertFalse(extract_text.needs_ocr(text))
+
+    def test_page_count_below_one_raises(self):
+        with self.assertRaises(extract_text.ExtractionError):
+            extract_text.extract_pages(Path("doc.pdf"), run=FakeRun(pages=0))
+
+    def test_sidecar_sha_returns_none_for_invalid_utf8(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "x.pdf.md"
+            path.write_bytes(b"---\nsource_sha256: \xff\xfe\n---\n")
+            self.assertIsNone(extract_text.sidecar_sha(path))
+
+    def test_write_failure_leaves_previous_sidecar_untouched(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = make_root(tmp)
+            sidecar = root / "circulars" / "2026" / "c.pdf.md"
+            old = f"---\nsource_sha256: {SHA_B}\n---\nold\n"
+            sidecar.write_text(old)
+            fake = FakeRun(pages=1, texts={1: LONG_TEXT})
+            with mock.patch.object(extract_text.os, "replace", side_effect=OSError("disk")):
+                code, out = run_main(["--data-root", str(root)], fake)
+            self.assertEqual(code, 1)
+            self.assertIn("FAILED", out)
+            self.assertEqual(sidecar.read_text(), old)
+            leftovers = [p.name for p in sidecar.parent.iterdir() if p.name.endswith(".tmp")]
+            self.assertEqual(leftovers, [])
+
+    def test_subprocess_output_decoded_as_utf8(self):
+        seen = []
+
+        def run(cmd, **kwargs):
+            seen.append(kwargs)
+            return FakeRun(pages=1, texts={1: LONG_TEXT})(cmd, **kwargs)
+
+        extract_text.extract_pages(Path("doc.pdf"), run=run)
+        self.assertTrue(all(k.get("encoding") == "utf-8" for k in seen))
 
 
 if __name__ == "__main__":

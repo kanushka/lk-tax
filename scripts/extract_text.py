@@ -9,6 +9,7 @@ checksum differs from the one recorded in its front matter.
 from __future__ import annotations
 
 import argparse
+import os
 import re
 import subprocess
 import sys
@@ -20,6 +21,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from corpus import Document, iter_documents, sidecar_path  # noqa: E402
 
 MIN_TEXT_CHARS = 100
+MIN_WORD_TOKENS = 30
+MIN_COMMON_WORD_RATIO = 0.05
+COMMON_WORDS = frozenset(
+    "the of and to in for is on by be or as a this that with shall tax income".split()
+)
 DISCLAIMER = "> Machine-extracted text for search. Confirm every figure against the PDF before relying on it."
 
 
@@ -28,12 +34,18 @@ class ExtractionError(Exception):
 
 
 def needs_ocr(text: str) -> bool:
-    return len("".join(text.split())) < MIN_TEXT_CHARS
+    if len("".join(text.split())) < MIN_TEXT_CHARS:
+        return True
+    words = [token.lower() for token in text.split() if token.isalpha()]
+    if len(words) < MIN_WORD_TOKENS:
+        return False
+    common = sum(1 for word in words if word in COMMON_WORDS)
+    return common / len(words) < MIN_COMMON_WORD_RATIO
 
 
 def _run(run, cmd: list[str]) -> str:
     try:
-        result = run(cmd, capture_output=True, text=True, check=False)
+        result = run(cmd, capture_output=True, encoding="utf-8", errors="replace", check=False)
     except OSError as exc:
         raise ExtractionError(f"{cmd[0]}: {exc}") from exc
     if result.returncode != 0:
@@ -47,8 +59,11 @@ def extract_pages(pdf_path: Path, run=subprocess.run) -> list[tuple[str, str]]:
     match = re.search(r"^Pages:\s+(\d+)", info, re.MULTILINE)
     if not match:
         raise ExtractionError("pdfinfo: no page count")
+    page_count = int(match.group(1))
+    if page_count < 1:
+        raise ExtractionError("pdfinfo: page count below 1")
     pages: list[tuple[str, str]] = []
-    for number in range(1, int(match.group(1)) + 1):
+    for number in range(1, page_count + 1):
         page = str(number)
         text = _run(run, ["pdftotext", "-layout", "-f", page, "-l", page, str(pdf_path), "-"])
         if not needs_ocr(text):
@@ -81,7 +96,7 @@ def render_sidecar(doc: Document, pages: list[tuple[str, str]]) -> str:
 def sidecar_sha(path: Path) -> str | None:
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
-    except FileNotFoundError:
+    except (FileNotFoundError, ValueError):
         return None
     if not lines or lines[0] != "---":
         return None
@@ -91,6 +106,17 @@ def sidecar_sha(path: Path) -> str | None:
         if line.startswith("source_sha256:"):
             return line.split(":", 1)[1].strip()
     return None
+
+
+def write_atomic(path: Path, content: str) -> None:
+    fd, tmp_name = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(content)
+        os.replace(tmp_name, path)
+    except BaseException:
+        Path(tmp_name).unlink(missing_ok=True)
+        raise
 
 
 def main(argv: list[str] | None = None, run=subprocess.run) -> int:
@@ -122,7 +148,12 @@ def main(argv: list[str] | None = None, run=subprocess.run) -> int:
             print(f"FAILED {doc.pdf_path}: {exc}")
             failures += 1
             continue
-        sidecar.write_text(render_sidecar(doc, pages), encoding="utf-8")
+        try:
+            write_atomic(sidecar, render_sidecar(doc, pages))
+        except OSError as exc:
+            print(f"FAILED {sidecar}: {exc}")
+            failures += 1
+            continue
         print(f"extracted {sidecar}")
     return 1 if failures else 0
 
