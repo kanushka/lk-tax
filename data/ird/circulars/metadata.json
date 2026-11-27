@@ -1,0 +1,1506 @@
+{
+  "2026/SEC_2026_E_07_E.pdf": {
+    "circular_no": "SEC/2026/E/07",
+    "revision": null,
+    "date": "2026-09-22",
+    "subject": "Mandatory Submission of TIN Certificate for Specified Transactions",
+    "summary": "Notifies banks, financial institutions, local authorities and other government bodies that, from 1 November 2026, a valid TIN Certificate must be submitted for specified transactions under section 103(6) of the Inland Revenue Act as amended by Act No. 11 of 2026.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "tin_registration",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "4494efe6d6645b901d3ee41a2649ce6e8f0e31e7881f080aeb53d340093b273f"
+  },
+  "2026/SEC_2026_E_06_ReRiv_E.pdf": {
+    "circular_no": "SEC/2026/E/06",
+    "revision": "Re-Revised",
+    "date": "2026-08-12",
+    "subject": "Calculating Quarterly Income Tax Instalments (Section 90) - Re-Revised",
+    "summary": "Re-revised circular on computing quarterly income tax instalments under section 90 for Y/A 2026/2027; amends the circulars of 3 and 6 August 2026, with changes highlighted.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "instalments"
+    ],
+    "assessment_years": [
+      "2026/2027"
+    ],
+    "revises": [
+      "2026/SEC_2026_E_06_E.pdf",
+      "2026/SEC_2026_E_06_Riv_E.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "4889d4b3647ef0d0d397e1669edd8db7c17611f27ea75087d7e73e2c5b98de23"
+  },
+  "2026/SEC_2026_E_06_Riv_E.pdf": {
+    "circular_no": "SEC/2026/E/06",
+    "revision": "Revised",
+    "date": "2026-08-06",
+    "subject": "Calculating Quarterly Income Tax Instalments (Section 90) - Revised",
+    "summary": "Revised circular on computing quarterly income tax instalments under section 90 for Y/A 2026/2027 and subsequent years; amends the circular of 3 August 2026, with changes in italics.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "instalments"
+    ],
+    "assessment_years": [
+      "2026/2027"
+    ],
+    "revises": [
+      "2026/SEC_2026_E_06_E.pdf"
+    ],
+    "revised_by": [
+      "2026/SEC_2026_E_06_ReRiv_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "2e600e8c790bde2fbff35b0741f4a5396ce2e300665a563975249e4bfef567a8"
+  },
+  "2026/SEC_2026_E_06_E.pdf": {
+    "circular_no": "SEC/2026/E/06",
+    "revision": null,
+    "date": "2026-08-03",
+    "subject": "Calculating Quarterly Income Tax Instalments (Section 90)",
+    "summary": "Sets out due dates and the formula for quarterly income tax instalments under section 90 of the Inland Revenue Act for Y/A 2026/2027 and subsequent years.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "instalments"
+    ],
+    "assessment_years": [
+      "2026/2027"
+    ],
+    "revises": [],
+    "revised_by": [
+      "2026/SEC_2026_E_06_Riv_E.pdf",
+      "2026/SEC_2026_E_06_ReRiv_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "02e5268cd79ed736ab85d878bd1581fa803107a2afc375e39dae4e5c5c3114cb"
+  },
+  "2026/SEC_2026_E_05_E.pdf": {
+    "circular_no": "SEC/2026/E/05",
+    "revision": null,
+    "date": "2026-06-26",
+    "subject": "Computation of Tax Credit on Salary Arrears (Section 96A) and related procedures",
+    "summary": "Circular to employers on how to compute the tax credit on arrears of salary under section 96A as amended by Act No. 11 of 2026, and the related APIT deduction, documents and refund matters.",
+    "tax_types": [
+      "apit",
+      "income_tax"
+    ],
+    "topics": [
+      "employment",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "1aaf3f321cabb0ec1dd63ae032b4cc9b63a0d553e73d1f84ae9d2bb68fd33493"
+  },
+  "2026/SEC_2026_E_04_E.PDF": {
+    "circular_no": "SEC/2026/E/04",
+    "revision": null,
+    "date": "2026-06-08",
+    "subject": "Deduction of Withholding Tax and Advance Income Tax",
+    "summary": "Explanatory notes and guideline to withholding agents on deducting WHT and AIT under sections 84, 84A and 85 of the Inland Revenue Act, effective 8 June 2026; terminates Circular SEC/2022/E/03.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2022/SEC_2022_E_03.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "5065b01b878dbe24de029c1f5eacbd01068a8b76b48598b58ffbfd3fd34ce34b"
+  },
+  "2026/SEC_2026_E_03_E.pdf": {
+    "circular_no": "SEC/2026/E/03",
+    "revision": null,
+    "date": "2026-05-20",
+    "subject": "Implementation of Revised Tax Invoice Format",
+    "summary": "Informs VAT-registered persons of the revised Tax Invoice format under Gazette Extraordinary No. 2481/22, in force from 1 July 2026 and replacing the format under Gazette No. 2463/05.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "c083b6e7b30d9adebef1a480c2d1383ec3dbcc66b22563187357a850e8565294"
+  },
+  "2026/SEC_2026_E_02_E.pdf": {
+    "circular_no": "SEC/2026/E/02",
+    "revision": null,
+    "date": "2026-03-23",
+    "subject": "Instructions for Supplies on a Non-Foreign Exchange (NFE) Basis to Export Manufacturers",
+    "summary": "VAT instructions for registered persons supplying goods on a non-foreign-exchange basis to a registered manufacturer of goods for export, following repeal of the SVAT scheme.",
+    "tax_types": [
+      "vat",
+      "svat"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "7b167fa0060d5f18714250cc2e59e954ae0b6ef126258dde4659fd5f61318e98"
+  },
+  "2026/SEC_2026_E_01_E.pdf": {
+    "circular_no": "SEC/2026/E/01",
+    "revision": null,
+    "date": "2026-03-23",
+    "subject": "Resident Individuals with Interest Income Subject to AIT but No Taxable Income",
+    "summary": "Procedure for resident individuals with no taxable income to give banks and financial institutions a self-declaration seeking relief from 10% AIT on interest, for Y/A 2026/2027 and later; effective 1 April 2026 and replaces SEC/2025/E/03.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "interest_dividends",
+      "withholding",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": [
+      "2026/2027"
+    ],
+    "revises": [
+      "2025/SEC_2025_E_03_e.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "48374b91068e1784b7c739cc00fa8702aee30e6eeef6145db6bdf7c05006c6a0"
+  },
+  "2025/SEC_2025_E_08_E.pdf": {
+    "circular_no": "SEC/2025/E/08",
+    "revision": null,
+    "date": "2025-12-23",
+    "subject": "How to Calculate Income Tax for Non-Resident Sri Lankan Citizens",
+    "summary": "Explains residence tests under section 69(1) and how income tax is computed for non-resident individuals who are Sri Lankan citizens, with worked examples.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "foreign_income",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": [
+      "2024/2025",
+      "2025/2026"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "e4782c6e27e5a8be7a215a00ac68fa71ba157d41b54ea1fa1caac93ed40670a4"
+  },
+  "2025/SEC_2025_E_07_E.pdf": {
+    "circular_no": "SEC/2025/E/07",
+    "revision": null,
+    "date": "2025-12-02",
+    "subject": "Deduction of AIT from Interest on Compensation for Land Acquired by Government",
+    "summary": "Instructions to government officials and public bodies on whether AIT at 10% applies to interest paid on delayed compensation for land or property acquired for public purposes.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "24f2d5833c3564a0ead44a815561a0a143668bd7fbbf911a076ee0fce02459b3"
+  },
+  "2025/SEC_2025_E_06_E.pdf": {
+    "circular_no": "SEC/2025/E/06",
+    "revision": null,
+    "date": "2025-11-19",
+    "subject": "Risk Based Refund Scheme",
+    "summary": "Overview of the VAT Risk Based Refund Scheme for eligible exporters and eligible projects following repeal of the SVAT scheme, with instructions on refund processing.",
+    "tax_types": [
+      "vat",
+      "svat"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "9f12e9d45bbf40fb23d98bbf348bd3c5a63435a5853809dbc04471d61bcc5b74"
+  },
+  "2025/SEC_2025_E_05_E.PDF": {
+    "circular_no": "SEC/2025/E/05",
+    "revision": null,
+    "date": "2025-07-01",
+    "subject": "Filing of Quarterly Statement of Advance Income Tax (AIT)",
+    "summary": "Guideline for banks and financial institutions on filing quarterly AIT statements under section 86(8), with period codes for Y/A 2025/2026; terminates Circular SEC/2023/E/05.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "returns_filing",
+      "interest_dividends"
+    ],
+    "assessment_years": [
+      "2025/2026"
+    ],
+    "revises": [
+      "2023/SEC_2023_E_05.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "6aa2663c4a239b0ffc333e37e84ffef65b3897e7ca39a87700da465d49892c49"
+  },
+  "2025/SEC_2025_E_04_E.pdf": {
+    "circular_no": "SEC/2025/E/04",
+    "revision": null,
+    "date": "2025-04-28",
+    "subject": "Explanatory Note on AIT on Deposit Interest and Self-Declaration Mechanism",
+    "summary": "Clarifies issues raised after circulars SEC/2025/E/02 and SEC/2025/E/03, including TIN requirements in the self-declaration form, for banks, financial institutions and individuals.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "interest_dividends",
+      "withholding",
+      "tin_registration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "6b2f950e97e7a01a37db960c59a28a65cc29a7470781a6f4fd428920531b6737"
+  },
+  "2023/SEC_2023_E_06-1_E.pdf": {
+    "circular_no": "SEC/2023/E/06-1",
+    "revision": null,
+    "date": "2025-04-11",
+    "subject": "Senior citizens' quarterly income tax refunds for AIT/WHT deducted on interest (amendment to paragraph 6)",
+    "summary": "Amends paragraph 6 of SEC/2023/E/06 on submission of quarterly refund applications and their deadline; other matters remain unchanged.",
+    "tax_types": [
+      "income_tax",
+      "wht_ait"
+    ],
+    "topics": [
+      "interest_dividends",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": [
+      "2023/2024"
+    ],
+    "revises": [
+      "2023/SEC_2023_E_06_E.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "eef351600ac51056bcf3ec8774587ceeb07a16d9b8b5ca12442477069bb1d88e"
+  },
+  "2025/SEC_2025_E_03_e.pdf": {
+    "circular_no": "SEC/2025/E/03",
+    "revision": null,
+    "date": "2025-03-28",
+    "subject": "Resident Individuals with Interest Income Subject to AIT but No Taxable Income",
+    "summary": "Procedure for resident individuals whose assessable income does not exceed Rs. 1,800,000 to give a self-declaration to banks or financial institutions to request relief from 10% AIT on interest.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "interest_dividends",
+      "withholding",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2026/SEC_2026_E_01_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "b55cf73864084243a7e3d955c8b23d88061afc0cb8dc2f3a1e695bd041c65a17"
+  },
+  "2025/SEC_2025_E_02_E.pdf": {
+    "circular_no": "SEC/2025/E/02",
+    "revision": null,
+    "date": "2025-03-28",
+    "subject": "Deduction of Advance Income Tax on Interest or Discount on Deposits",
+    "summary": "Guideline to banks and financial institutions on deducting 10% AIT on interest, discounts and Islamic financial income paid to deposit holders from 1 April 2025; terminates SEC/2022/E/02.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2022/SEC_2022_E_02.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "8ec1aac0c884dee05f5bf5a79475e9009253ef5b2ba790922c468fe4b5b037cd"
+  },
+  "2025/SEC_2025_E_01_E.pdf": {
+    "circular_no": "SEC/2025/E/01",
+    "revision": null,
+    "date": "2025-03-25",
+    "subject": "Guideline for Employers on Deducting APIT from Employment Income",
+    "summary": "Instructions to employers on deducting Advance Personal Income Tax from employment income under the Inland Revenue Act as amended, effective for Y/A 2025/2026 and onwards.",
+    "tax_types": [
+      "apit",
+      "income_tax"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2025/2026"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "c29faa8bda76787acc8cc3cde8d14d2b0e9dd1ed3402ef6ffe4d3b229d34cbc8"
+  },
+  "2024/SEC_2024_E_01.pdf": {
+    "circular_no": "SEC/2024/E/01",
+    "revision": null,
+    "date": "2024-01-04",
+    "subject": "Registration under VAT and SVAT scheme for certain industries",
+    "summary": "Explains VAT registration and Simplified VAT scheme eligibility for suppliers of tea, rubber and coconut products after exemptions were removed from 1 January 2024.",
+    "tax_types": [
+      "vat",
+      "svat"
+    ],
+    "topics": [
+      "indirect_tax",
+      "tin_registration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "70e205391350459312d9c27a5ec13183f777da76513d281517314ff5e171cf37"
+  },
+  "2023/SEC_2023_E_06_E.pdf": {
+    "circular_no": "SEC/2023/E/06",
+    "revision": null,
+    "date": "2023-09-25",
+    "subject": "Senior citizens' quarterly income tax refunds for AIT/WHT deducted on interest",
+    "summary": "Sets out eligibility and procedure for senior citizens to claim quarterly refunds of AIT deducted on interest under section 150(2A).",
+    "tax_types": [
+      "income_tax",
+      "wht_ait"
+    ],
+    "topics": [
+      "interest_dividends",
+      "reliefs_exemptions",
+      "tin_registration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2023/SEC_2023_E_06-1_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "787b567b68aa6b1a530a5c01860756f4421ce71b64e8de7ac988c9e58af707a6"
+  },
+  "2023/SEC_2023_E_05.pdf": {
+    "circular_no": "SEC/2023/E/05",
+    "revision": null,
+    "date": "2023-07-26",
+    "subject": "Filing of quarterly statement of Advance Income Tax (AIT)",
+    "summary": "Guideline for withholding agents on filing quarterly AIT statements for interest paid to resident individuals aged 59 or above, with period codes and due dates.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "returns_filing",
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": [
+      "2023/2024"
+    ],
+    "revises": [],
+    "revised_by": [
+      "2025/SEC_2025_E_05_E.PDF"
+    ],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "f7cb904132342b438365c080d5b78cfc2eeeac48d50a9ec07052680b3c066674"
+  },
+  "2023/SEC_2023_02.pdf": {
+    "circular_no": "SEC/2023/02",
+    "revision": null,
+    "date": "2023-07-18",
+    "subject": "Explanatory note on the application of Advance Personal Income Tax (APIT)",
+    "summary": "Clarifies practical APIT issues, including distinguishing employment from independent service provision and valuing certain employment benefits.",
+    "tax_types": [
+      "apit",
+      "income_tax"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "c0cd8141df2d9179a5e82c87ecf28611ea30693c0a9d17d29f33753b9fc2a21a"
+  },
+  "2023/SEC_2023_E_04_E.pdf": {
+    "circular_no": "SEC/2023/E/04",
+    "revision": null,
+    "date": "2023-07-17",
+    "subject": "Deduction of AIT from interest on compensation for land acquired by Government for public purposes",
+    "summary": "Instructions to government officers and public bodies on whether AIT at 5% applies to interest on delayed land acquisition compensation.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "d1a27a7986a9130c3473896fb3037ebed36829898b767f63485f9c5df23ef881"
+  },
+  "2023/SEC_2023_E_03.pdf": {
+    "circular_no": "SEC/2023/E/03",
+    "revision": null,
+    "date": "2023-05-09",
+    "subject": "Calculation of income tax payable for the year of assessment commencing on April 1, 2022",
+    "summary": "Explains computing income tax for Y/A 2022/2023 in two periods (first nine months and last three months), including how reliefs and qualifying payments are split.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "returns_filing",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": [
+      "2022/2023"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "6a710e96f7a6bac09193b5f618942eb7867d4042b86042f9bc99b6abb073a762"
+  },
+  "2023/SEC_2023_E_02.pdf": {
+    "circular_no": "SEC/2023/E/02",
+    "revision": null,
+    "date": "2023-04-06",
+    "subject": "Quantification of certain amounts for benefits in calculating employment income",
+    "summary": "Specifies amounts to include as employment benefits (shares, residence, transport and similar) for months from 1 April 2023.",
+    "tax_types": [
+      "income_tax",
+      "apit"
+    ],
+    "topics": [
+      "employment"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "24bf955a09e81593b84cc4ba1fc77900fc903ab2e9ed705e7a4590795abaf2c7"
+  },
+  "2023/SEC_2023_E_01.pdf": {
+    "circular_no": "SEC/2023/E/01",
+    "revision": null,
+    "date": "2023-03-29",
+    "subject": "Guideline for employers on deducting APIT from employment income - Y/A 2023/2024 and onwards",
+    "summary": "Instructions to employers on deducting APIT under section 83A(1A) using the CGIR tax tables, effective for Y/A 2023/2024 and onwards.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2023/2024"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "d84e018aa30d9ba91e02924b3f1a1bb6582498b5a972a8f7442edf1eec71d363"
+  },
+  "2023/SEC_2023_01.pdf": {
+    "circular_no": "SEC/2023/01",
+    "revision": null,
+    "date": "2023-02-14",
+    "subject": "Explanatory note on the application of Withholding Tax / Advance Income Tax",
+    "summary": "Clarifies practical WHT/AIT issues, including which individual service providers are subject to WHT on service fees, transport services and vehicle rentals.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "be94490c6228852e332e832e0c8d12eeab9c3b04965e70aa90e62caaa1cb45ed"
+  },
+  "2022/SEC_2022_E_06(Rev).pdf": {
+    "circular_no": "SEC/2022/E/06",
+    "revision": "Revised",
+    "date": "2023-03-17",
+    "subject": "Requirement of tax clearance for foreign outward remittances and related procedure (Revised)",
+    "summary": "Revised version dated 17 March 2023 of the outward remittance tax clearance circular; adds items xviii to xxi to the negative list from 1 April 2023.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2022/SEC_2022_E_06.pdf",
+      "2018/SEC_2018_03_E.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "bda7d64ed88faf30667e3559126b7cf3ac539f52203bceda08001d80d5840e9a"
+  },
+  "2022/SEC_2022_E_06.pdf": {
+    "circular_no": "SEC/2022/E/06",
+    "revision": null,
+    "date": "2022-12-23",
+    "subject": "Requirement of tax clearance for foreign outward remittances and related procedure",
+    "summary": "Circular to banks and authorized dealers on tax clearance certificates from the CGIR for outward remittances, with a negative list, effective 1 January 2023; terminates SEC/2018/03.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2018/SEC_2018_03_E.pdf"
+    ],
+    "revised_by": [
+      "2022/SEC_2022_E_06(Rev).pdf"
+    ],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "c6c84f345c200e15546e1a89b9774c2ef325bf81e2504d4c6cff665189da0093"
+  },
+  "2022/SEC_2022_E_05(Rev).pdf": {
+    "circular_no": "SEC/2022/E/05",
+    "revision": "Revised",
+    "date": "2023-02-07",
+    "subject": "Quantification of certain amounts for benefits in calculating employment income",
+    "summary": "Revised circular that annuls SEC/2022/E/05 and specifies amounts for employment benefits for months from 1 January 2023.",
+    "tax_types": [
+      "income_tax",
+      "apit"
+    ],
+    "topics": [
+      "employment"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2022/SEC_2022_E_05.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "42c762d87598213c424a816195b6adeffaadbf96429e7deaee39da1dad654138"
+  },
+  "2022/SEC_2022_E_05.pdf": {
+    "circular_no": "SEC/2022/E/05",
+    "revision": null,
+    "date": "2022-12-22",
+    "subject": "Quantification of values for non-cash benefits in calculating employment income",
+    "summary": "Specifies the values of employment non-cash benefits (shares, residence, transport and similar) for the second three-month period of Y/A 2022/2023.",
+    "tax_types": [
+      "income_tax",
+      "apit"
+    ],
+    "topics": [
+      "employment"
+    ],
+    "assessment_years": [
+      "2022/2023"
+    ],
+    "revises": [],
+    "revised_by": [
+      "2022/SEC_2022_E_05(Rev).pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "ac807172085675a9bf9d0ac466511cfbecae01b03c01a2939579d2564eb06cd7"
+  },
+  "2022/SEC_2022_E_04.pdf": {
+    "circular_no": "SEC/2022/E/04",
+    "revision": null,
+    "date": "2022-12-22",
+    "subject": "Guideline for employers on deducting APIT from employment income - second three-month period of Y/A 2022/2023",
+    "summary": "Instructions to employers on deducting APIT under section 83A(1A) for the period 01.01.2023 to 31.03.2023 of Y/A 2022/2023.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2022/2023"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "46a79bc039e2c32a919c5c259e00b59ef7420def75c504337666b619c5aa3316"
+  },
+  "2022/SEC_2022_E_03.pdf": {
+    "circular_no": "SEC/2022/E/03",
+    "revision": null,
+    "date": "2022-12-23",
+    "subject": "Deduction of Withholding Tax and Advance Income Tax",
+    "summary": "Guideline for withholding agents on WHT and AIT rates and exemptions under sections 84, 84A and 85 of the Inland Revenue Act, effective 1 January 2023.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2020/SEC-2020-04_E.pdf"
+    ],
+    "revised_by": [
+      "2026/SEC_2026_E_04_E.PDF"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "60714ae2dd181cd100964f74f6d0b37ca6e72db42f066aa4d9af5d176d6c0b4b"
+  },
+  "2022/SEC_2022_E_02.pdf": {
+    "circular_no": "SEC/2022/E/02",
+    "revision": null,
+    "date": "2022-12-20",
+    "subject": "Deduction of Advance Income Tax on Interest or Discount on Deposits",
+    "summary": "Guideline for banks and financial institutions on deducting 5% AIT on interest, discount and Islamic financial income from 1 January 2023, including exempt interest and DTAA clearance for non-residents.",
+    "tax_types": [
+      "wht_ait"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2020/SEC-2020-03_Revised_E.pdf"
+    ],
+    "revised_by": [
+      "2025/SEC_2025_E_02_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "6dcbffdbc41e6c4b47c0ebdcd5931035b219eec763f56a4c0d426efba804db72"
+  },
+  "2022/SEC_2022_E_01_E.pdf": {
+    "circular_no": "SEC/2022/E/01",
+    "revision": null,
+    "date": "2022-06-27",
+    "subject": "Extension of Time for Payment of Income Tax",
+    "summary": "Sets out the procedure and documents for applying under Section 151 of the Inland Revenue Act for an extension of time to pay income tax or penalties assessed.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "administration",
+      "penalties_interest"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "5473cfffb1cf33ca93c47186f476c83ea68aa604d5a809aab171f5744ea405fe"
+  },
+  "2021/SEC-2021-03_E.pdf": {
+    "circular_no": "SEC/2021/03",
+    "revision": null,
+    "date": "2021-06-28",
+    "subject": "Guideline for Refund of Value Added Tax (VAT) to the Hotel Industry",
+    "summary": "Explains the VAT refund procedure for SLTDA-registered hotels and similar businesses supplying services at the zero rate from 1 December 2019, including the 60% local-input test and eligible input tax.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "b5f70576949b0ac030310190ef603134134e1cb8b41367d1fb3411d8a2b624e8"
+  },
+  "2020/SEC-2020-04_E.pdf": {
+    "circular_no": "SEC/2020/04",
+    "revision": null,
+    "date": "2020-05-19",
+    "subject": "Circular to Withholding Agents: Deduction of Withholding Tax and Advance Income Tax",
+    "summary": "Explains WHT and AIT deduction by withholding agents other than banks on winnings, gem sale prices, interest, dividends, rent, royalties and other payments, effective from 1 April 2020.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2022/SEC_2022_E_03.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "40cb80a729c5ff4f5849c47d8088b51a3b03b54628acba02e990f1c0f1ffdf96"
+  },
+  "2020/SEC-2020-03_Revised_E.pdf": {
+    "circular_no": "SEC/2020/03",
+    "revision": "Revised",
+    "date": "2020-06-08",
+    "subject": "Circular to Banks and Financial Institutions: Deduction of Withholding Tax and Advance Income Tax",
+    "summary": "Revised guideline for banks and financial institutions on WHT and AIT on interest, discounts and Islamic financial transaction income; states it replaces the circular of 19 May 2020.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2020/SEC-2020-03_E.pdf"
+    ],
+    "revised_by": [
+      "2022/SEC_2022_E_02.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "dc562c386bf51e10de30c17b53a0fb471310838f17d3d932554557f4f39c6b12"
+  },
+  "2020/SEC-2020-03_E.pdf": {
+    "circular_no": "SEC/2020/03",
+    "revision": null,
+    "date": "2020-05-19",
+    "subject": "Circular to Banks and Financial Institutions: Deduction of Withholding Tax and Advance Income Tax",
+    "summary": "Guideline for banks and financial institutions on WHT and AIT on interest, discounts and Islamic financial transaction income, effective from 1 April 2020.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2020/SEC-2020-03_Revised_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "8dd080c31539fe9b31ca9f526963b589c9d637a68fee9772d767ff340290a889"
+  },
+  "2020/SEC-2020-02_E.pdf": {
+    "circular_no": "SEC/2020/02",
+    "revision": null,
+    "date": "2020-02-18",
+    "subject": "Guideline for ETF, Provident Funds and Employers: retaining tax on once-and-for-all payments (terminal benefits)",
+    "summary": "Instructs the ETF, provident funds and employers on retaining amounts in lieu of income tax from terminal benefits such as gratuity, commuted pension and compensation for loss of office, from 1 January 2020.",
+    "tax_types": [
+      "income_tax",
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "b2c8c6c977fa95e3b417566af1b5bda12f4c829a3cc2109a6d0d75a1f881cb3a"
+  },
+  "2020/SEC-2020-01_E.pdf": {
+    "circular_no": "SEC/2020/01",
+    "revision": null,
+    "date": "2020-01-29",
+    "subject": "Circular to Banks / Financial Institutions: Withholding Tax on Interest paid by Banks or other Financial Institutions",
+    "summary": "Amends clauses 1 and 2 of Circular SEC/2019/04 from 1 January 2020 on interest WHT non-deduction and senior citizen relief until 31 March 2020, and gives refund and reporting steps for senior citizens.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": [
+      "2019/2020"
+    ],
+    "revises": [
+      "2019/SEC_2019_04_E.pdf"
+    ],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "2685827f20f79b05aa31d300b1835f9e42deb1f863a495700007dec5ec4b018a"
+  },
+  "2019/SEC_2019_04_E.pdf": {
+    "circular_no": "SEC/2019/04",
+    "revision": null,
+    "date": "2019-12-27",
+    "subject": "Circular to Banks / Financial Institutions: Withholding Tax on Interest paid by Banks or other Financial Institutions",
+    "summary": "Sets WHT rules on bank and financial institution interest for 1 January to 31 March 2020, to be read with Circular SEC/2018/01, including senior citizen relief and a monthly threshold, and states no WHT from 1 April 2020.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2020/SEC-2020-01_E.pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "79807e8f77525e52b0c11bda84d33197c87ef3663c829383d13f315bbc0417e4"
+  },
+  "2019/CGIR_2019_3_Ins_Cir_E.pdf": {
+    "circular_no": "CGIR/2019/3",
+    "revision": null,
+    "date": "2019-07-09",
+    "subject": "Paying of Value Added Tax (VAT) to the Suppliers",
+    "summary": "Instructs government and state institutions to pay VAT only to suppliers with a permanent, active VAT registration, and sets out confirmation and quarterly reporting steps.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "4ca06b88a440253fce8059bad5663688371edc6393e2ffcc524d2542f2e9fa5c"
+  },
+  "2019/Sec_2019_03_E.pdf": {
+    "circular_no": "SEC/2019/03",
+    "revision": null,
+    "date": "2019-06-24",
+    "subject": "Imposition of Debt Repayment Levy under the Finance Act No. 35 of 2018: Guideline for DRL on Supply of Financial Services",
+    "summary": "Guideline to banks and finance companies on the Debt Repayment Levy on financial services from 1 October 2018 to 31 December 2021, covering value addition, payment and returns.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "c311e55d0a13cabd98d126b4ec5f1e6ffd857a58a82bc430ee622100d96e8bb7"
+  },
+  "2019/SEC_2019_02_E.pdf": {
+    "circular_no": "SEC/2019/02",
+    "revision": null,
+    "date": "2019-05-14",
+    "subject": "Stamp Duty Circular: charging, collecting and remitting Stamp Duty arrears on liquor and bottled toddy licences",
+    "summary": "Instructs District and Divisional Secretaries to charge, collect and remit Stamp Duty arrears on liquor and bottled toddy licences issued in earlier periods, following an audit query.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "788309feb140b6648cb5c5f36312dcfba4877c5670f538285a48370952da8840"
+  },
+  "2019/SEC_2019_01_E.pdf": {
+    "circular_no": "SEC/2019/01",
+    "revision": null,
+    "date": "2019-05-14",
+    "subject": "Stamp Duty Circular: Stamp Duty on liquor and bottled toddy licences issued on or after 1 October 2018",
+    "summary": "Informs District and Divisional Secretaries of the Stamp Duty amounts on liquor and bottled toddy licences issued on or after 1 October 2018 and how to remit them.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "9fd19b99dc3a287324355047fdcd6a9d5ec805a0f23c23f1b4a125604aae9fc9"
+  },
+  "2018/SEC_2018_07_E.pdf": {
+    "circular_no": "SEC/2018/07",
+    "revision": null,
+    "date": "2018-06-16",
+    "subject": "Instructions to taxpayers for requesting a private ruling",
+    "summary": "Describes how taxpayers apply to the Commissioner General for a private ruling under section 107 of the Inland Revenue Act, including the Interpretation Committee, application contents and fee.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "b1e8167ab34273d7e1528f9c5bc8f50a7ea0c7cc409c6bf6957d62711f91d50f"
+  },
+  "2018/SEC_2018_06_E.pdf": {
+    "circular_no": "SEC/2018/06",
+    "revision": null,
+    "date": "2018-04-18",
+    "subject": "Circular to Withholding Agents: Withholding of Tax from Payments under Sections 84 and 85",
+    "summary": "Explains WHT deduction under sections 84 and 85 of the Inland Revenue Act from 1 April 2018, including payments covered, exclusions, rates, registration, payment and returns; states it withdraws Circular SEC/2018/05.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "168cbdbb13ae1800c7e5e33418746537b9814b7482bcb0095188af7435dcc51b"
+  },
+  "2018/SEC_2018_03_E.pdf": {
+    "circular_no": "SEC/2018/03",
+    "revision": null,
+    "date": "2018-03-29",
+    "subject": "Furnishing of Tax Clearance Certificate to Banks",
+    "summary": "Tells banks which outward remittances need no tax clearance certificate from the Commissioner General and how to apply for one; states it revises the circular issued on 16.11.2017.",
+    "tax_types": [
+      "income_tax"
+    ],
+    "topics": [
+      "foreign_income",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2017/SEC_2017_05_E.pdf"
+    ],
+    "revised_by": [
+      "2022/SEC_2022_E_06.pdf",
+      "2022/SEC_2022_E_06(Rev).pdf"
+    ],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "c9a2e48caabdace63511576c1d79436d9c7d7512bd62de83a917de5e4175ae22"
+  },
+  "2018/SEC_2018_02_E.pdf": {
+    "circular_no": "SEC/2018/02",
+    "revision": null,
+    "date": "2018-03-27",
+    "subject": "Collection of Remittance Fee on Inward Remittance of Foreign Exchange (Foreign Exchange Act No. 12 of 2017)",
+    "summary": "Explains the 1% remittance fee on inward foreign exchange above one million US dollars under section 8(3) of the Foreign Exchange Act, and the declaration and approval steps.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "foreign_income",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "55327aa52785ab4fc2e17106bd5ed0679ad099d259af1a734e892aa4b29ac87a"
+  },
+  "2018/SEC_2018_01_E.pdf": {
+    "circular_no": "SEC/2018/01",
+    "revision": null,
+    "date": "2018-03-16",
+    "subject": "Circular to Banks / Financial Institutions: Withholding Tax on Interest paid by Banks or other Financial Institutions",
+    "summary": "Guideline to banks and financial institutions on WHT under section 84 on interest, discount and Islamic financial transaction income from 1 April 2018, including exclusions, rates and senior citizen declaration.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "af6ebffa141c03a47329c943cc3b6fbb48801ffd34659b03d7de6257297efe70"
+  },
+  "2017/SEC_2017_05_E.pdf": {
+    "circular_no": "SEC/2017/05",
+    "revision": null,
+    "date": "2017-11-16",
+    "subject": "Furnishing of Tax Clearance Certificate to Banks",
+    "summary": "Circular to banks on outward remittances: states that the 26.03.2014 circular has been revised, requires an IRD clearance from the Commissioner General except for listed remittance types, and gives contact units.",
+    "tax_types": [
+      "income_tax",
+      "other"
+    ],
+    "topics": [
+      "administration",
+      "foreign_income"
+    ],
+    "assessment_years": null,
+    "revises": [
+      "2014/Sec-2014-02.pdf"
+    ],
+    "revised_by": [
+      "2018/SEC_2018_03_E.pdf"
+    ],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "48d84b7ba07196c34fb853e88e39759b43e2baad63939ed082d3260e3d424ee4"
+  },
+  "2016/SEC_2016_05_E.pdf": {
+    "circular_no": "SEC/2016/05",
+    "revision": null,
+    "date": "2016-04-18",
+    "subject": "Imposition of ESC in Advance on the turnover of Importers of items subject to Special Commodity Levy",
+    "summary": "Introduces Economic Service Charge payable in advance by importers of items subject to Special Commodity Levy, with effect from 01.04.2016, and the ESC clearance certificate procedure.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "administration",
+      "other"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "0330f73c87507a304049b26e6b227c329feea15711956aecbc8005a261fab20c"
+  },
+  "2016/SEC_2016_02_E.pdf": {
+    "circular_no": "SEC/2016/02",
+    "revision": null,
+    "date": "2016-01-29",
+    "subject": "VAT: Deferment of Proposed Amendments to the VAT Act by Budget 2016",
+    "summary": "Circular to VAT registered persons on deferment of the Budget 2016 VAT amendments from 01.01.2016, and how to adjust invoices using tax debit and credit notes.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "3f820aba6e95158ff3c2ca3192855309207c617396c8f4f46434c623b6d18ac0"
+  },
+  "2016/SEC_2016_01_E.pdf": {
+    "circular_no": "SEC/2016/01",
+    "revision": null,
+    "date": "2016-01-20",
+    "subject": "Imposition of Vehicle Entitlement Levy (VEL) as proposed in the Budget 2016",
+    "summary": "Circular to banks, financial institutions and motor vehicle importers on the Vehicle Entitlement Levy collected at opening of letters of credit, effective 01.01.2016.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "administration",
+      "other"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "9fd6f186896bdf3b7cbef621cc401463b129f9a3651287b59b86072c27c46759"
+  },
+  "2015/SEC_2015_10_E.pdf": {
+    "circular_no": "SEC/2015/10",
+    "revision": null,
+    "date": "2015-12-29",
+    "subject": "Migrating Tax imposed in terms of PART VIII of the Finance Act, No. 10 of 2015",
+    "summary": "Instructions to individuals who leave Sri Lanka permanently and to banks on Migrating Tax under the Finance Act, applicable from November 1, 2015, and the clearance procedure before remittances.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "foreign_income",
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "bf968c2ccac991e527faa48f248f260a0c5b406471639a044f4938cc88b6f00f"
+  },
+  "2015/SEC_2015_08_E.pdf": {
+    "circular_no": "SEC/2015/08",
+    "revision": null,
+    "date": "2015-10-26",
+    "subject": "Implementation of the proposed Taxes & Levies imposed under the Finance Bill",
+    "summary": "Summary of taxes and levies under the Finance Bill collectible by the Commissioner General: Super Gain Tax, Casino Industry Levy, Mansion Tax and Migrating Tax.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "other"
+    ],
+    "assessment_years": [
+      "2013/2014"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "d10276bd908fb9bc555394f300d5f9641ae78be42d88947e43bc0c3bb11520ea"
+  },
+  "2015/SEC_2015_05_E.pdf": {
+    "circular_no": "SEC/2015/05",
+    "revision": null,
+    "date": "2015-07-06",
+    "subject": "Instructions to Employers in the Government Sector on taxation of employment income and PAYE deductions",
+    "summary": "PAYE guidance for public sector employers for the 2015/2016 year of assessment: who is a public sector employee, taxable and non-taxable employment income, and deduction and remittance procedures.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2015/2016"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "3dc2024223faadd8375d86a3105d233e3373b06f06164c65952ae61a95e8bcf8"
+  },
+  "2015/SEC_2015_04_E.pdf": {
+    "circular_no": "SEC/2015/04",
+    "revision": null,
+    "date": "2015-07-06",
+    "subject": "Instructions to Employers on Tax Deductions under PAYE Scheme (private sector, banks, statutory boards, corporations)",
+    "summary": "PAYE guidance for private sector and other non-government employers for the 2015/2016 year of assessment: taxable employment income, non-cash benefit valuation and deduction procedures.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2015/2016"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "4e119540cc3cc50d880324c4916f10fb70b798de15c6efe6182a5c075193474b"
+  },
+  "2015/SEC_2015_03_E.pdf": {
+    "circular_no": "SEC/Stamp Duty/2015/03",
+    "revision": null,
+    "date": "2015-04-21",
+    "subject": "Instructions and Guidelines on charging Stamp Duty and reporting & remitting by institutions authorized to compound Stamp Duty",
+    "summary": "Guidelines to government and statutory institutions on charging Stamp Duty under the Stamp Duty (Special Provisions) Act, registration, and quarterly reporting and remittance.",
+    "tax_types": [
+      "other"
+    ],
+    "topics": [
+      "administration"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "170ad2dcf549e3d77db383320ca17f8319055aa63e5f50eea0ad32d76550df4f"
+  },
+  "2015/SEC_2015_02_-_Withholding_tax_on_interest_paid_by_Banks_or_others_E.pdf": {
+    "circular_no": "SEC/2015/02",
+    "revision": null,
+    "date": "2015-03-25",
+    "subject": "Withholding tax on interest paid by Banks or other Financial Institutions",
+    "summary": "Circular to banks and financial institutions on deducting income tax from interest under Section 133 as amended, effective April 1, 2015: time of deduction, exemptions and deduction rates.",
+    "tax_types": [
+      "wht_ait",
+      "income_tax"
+    ],
+    "topics": [
+      "withholding",
+      "interest_dividends",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "1e916ec15d29c0d1e1606c36fe35699cab74052744e461d7c9fdf32e6e868110"
+  },
+  "2015/Sec-2015-01_-_VAT_Rate_Changes_Circular_-_2015_E.PDF": {
+    "circular_no": "SEC/2015/01",
+    "revision": null,
+    "date": "2015-02-09",
+    "subject": "VAT: Amendments to the VAT Act as per the Budget 2015 - VAT Rate Change (effective 01/01/2015)",
+    "summary": "Clarifies transitional adjustments for the VAT rate change from 12% to 11% effective 01.01.2015, including time of supply, advance payments and adjustments.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "0ab4f9e0fba08b048efa50cf0135e9937311abd2ba5fcf749eb1df3d064d6922"
+  },
+  "2014/Sec-2014-06.pdf": {
+    "circular_no": "SEC/2014/06",
+    "revision": null,
+    "date": "2014-07-25",
+    "subject": "Instructions to Employers in the Government Sector on taxation of employment income and PAYE deductions",
+    "summary": "PAYE guidance for public sector employers under the Inland Revenue Act as amended by Act No 8 of 2014.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2014/2015"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "a1a194d0a57206fe793dd9139005682734da471306a1e3c11daf83f34d6bc6b9"
+  },
+  "2014/Sec-2014-05.pdf": {
+    "circular_no": "SEC/2014/05",
+    "revision": null,
+    "date": "2014-07-25",
+    "subject": "Instructions to Employers on Tax Deductions under PAYE Scheme (private sector, banks, statutory boards, corporations)",
+    "summary": "PAYE guidance for private sector and other non-government employers for the 2014/2015 year of assessment: taxable employment income, non-cash benefits and deduction procedures.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": [
+      "2014/2015"
+    ],
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "81556e875601bc4bd05b29990c46fad9d3f4f760a2f5d4c6ed90d19d80032e90"
+  },
+  "2014/Sec-2014-02.pdf": {
+    "circular_no": "SEC/2014/02",
+    "revision": null,
+    "date": "2014-03-26",
+    "subject": "Furnishing of Tax clearance Certificate to Banks and Authorized Dealers",
+    "summary": "Circular to banks and authorized dealers on tax clearance for outward remittances; states it revises the circular issued on 06.02.2014 and lists remittances for which no clearance certificate is required.",
+    "tax_types": [
+      "income_tax",
+      "other"
+    ],
+    "topics": [
+      "administration",
+      "foreign_income"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [
+      "2017/SEC_2017_05_E.pdf"
+    ],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "4f5f1cbd7892ac6b8de6a60795afef28238dba5b5749ca1cc1adbdde0ee5576e"
+  },
+  "2013/PAYE_CirNo_SEC_2013_07_E.pdf": {
+    "circular_no": "SEC/2013/07",
+    "revision": null,
+    "date": "2013-09-01",
+    "subject": "Instructions to Employers in the Public Sector: taxation of employment income and PAYE deductions",
+    "summary": "PAYE guidance for public sector employers under the Inland Revenue Act as amended by Acts No. 22 of 2011 and 18 of 2013.",
+    "tax_types": [
+      "apit"
+    ],
+    "topics": [
+      "employment",
+      "withholding"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": true,
+    "reviewed": true,
+    "reviewed_sha256": "b8d91777865e33de238d290d9afd8f0eb146789e301a4b391a76c670e56f6de7"
+  },
+  "2011/VATCirNo2011_07_E_.pdf": {
+    "circular_no": "2011/07",
+    "revision": null,
+    "date": "2011-09-09",
+    "subject": "Instructions - Filing of VAT Returns",
+    "summary": "Circular to VAT registered persons on how to complete the parts of the VAT return, including output tax, input tax and related restrictions.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "returns_filing",
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "197a588cdaca038ff3820a95b5f6577a693af55c90f8b7971140ab1f6f9ab20b"
+  },
+  "2011/Instructions.pdf": {
+    "circular_no": "SEC/2011/06",
+    "revision": null,
+    "date": "2011-09-08",
+    "subject": "Instructions on Submission of Reports to SVAT Branch",
+    "summary": "Circular to SVAT registered persons on which SVAT reports to submit monthly to the SVAT branch and how to submit them.",
+    "tax_types": [
+      "svat"
+    ],
+    "topics": [
+      "returns_filing",
+      "indirect_tax"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "35a1d344d0e86b95d4b9023d58e097f29875cbccb729b66ad16b2cb4128573f6"
+  },
+  "2008/Implementation of VAT on Special Projects.pdf": {
+    "circular_no": "SEC/2008/03",
+    "revision": null,
+    "date": "2008-08-05",
+    "subject": "Implementation of VAT on Special Projects and Projects Exempt Under Strategic Development Projects Act",
+    "summary": "Procedure for applying VAT to projects exempt under the First Schedule and the Strategic Development Projects Act, including input tax claim conditions.",
+    "tax_types": [
+      "vat"
+    ],
+    "topics": [
+      "indirect_tax",
+      "reliefs_exemptions"
+    ],
+    "assessment_years": null,
+    "revises": [],
+    "revised_by": [],
+    "relevant_to_individuals": false,
+    "reviewed": true,
+    "reviewed_sha256": "bbebed57957c6dabca74d13395d56b459fcf7b4830aa2e9c282439cc68e4ff00"
+  }
+}

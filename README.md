@@ -61,6 +61,26 @@ weekly and commits only when IRD publishes new or changed documents.
 After a refresh, inspect each manifest for failed downloads and update the source
 inventory if IRD changed the page structure or published a new assessment-year pack.
 
+## Text sidecars and index
+
+Most circular PDFs are scans with no text layer, so each PDF has a text sidecar
+beside it: `X.pdf` -> `X.pdf.md`, with source metadata in front matter and one
+`## Page N` section per page (OCR where needed). Sidecars are for finding; the PDFs
+remain the evidence, and OCR can misread digits.
+
+- `data/ird/circulars/metadata.json` holds curated per-circular years, topics, and
+  revision links. An entry counts as reviewed when `reviewed` is `true` and
+  `reviewed_sha256` equals the manifest `sha256` of the PDF that was checked.
+- `data/ird/INDEX.md` is generated from the manifests and metadata; do not edit it.
+
+```sh
+python3 scripts/extract_text.py   # write/refresh sidecars (--check verifies coverage)
+python3 scripts/build_index.py    # rebuild INDEX.md (--check verifies it is current)
+```
+
+Extraction needs `poppler` and `tesseract` installed locally (for example
+`brew install poppler tesseract`).
+
 ## Working with an advisor agent
 
 Read [AGENTS.md](AGENTS.md) before using this repository to answer a tax question,
