@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install text extraction tools
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
+
       - name: Download circulars and forms
         run: |
           python3 scripts/download_ird_circulars.py
@@ -37,6 +40,16 @@ jobs:
           if m["failed_count"]:
               sys.exit(f"{m['failed_count']} circular downloads failed")
           EOF
+
+      - name: Extract text and rebuild index
+        run: |
+          python3 scripts/extract_text.py
+          python3 scripts/build_index.py
+
+      - name: Verify text sidecars and index are current
+        run: |
+          python3 scripts/extract_text.py --check
+          python3 scripts/build_index.py --check
 
       - name: Detect real changes
         id: diff
