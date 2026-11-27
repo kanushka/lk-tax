@@ -11,3 +11,6 @@ personal/
 *.local.*
 .env
 .env.*
+
+# Local agent workspace.
+.superpowers/
