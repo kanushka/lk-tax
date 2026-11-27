@@ -16,7 +16,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "4494efe6d6645b901d3ee41a2649ce6e8f0e31e7881f080aeb53d340093b273f"
   },
   "2026/SEC_2026_E_06_ReRiv_E.pdf": {
     "circular_no": "SEC/2026/E/06",
@@ -39,7 +40,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "4889d4b3647ef0d0d397e1669edd8db7c17611f27ea75087d7e73e2c5b98de23"
   },
   "2026/SEC_2026_E_06_Riv_E.pdf": {
     "circular_no": "SEC/2026/E/06",
@@ -63,7 +65,8 @@
       "2026/SEC_2026_E_06_ReRiv_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "2e600e8c790bde2fbff35b0741f4a5396ce2e300665a563975249e4bfef567a8"
   },
   "2026/SEC_2026_E_06_E.pdf": {
     "circular_no": "SEC/2026/E/06",
@@ -86,7 +89,8 @@
       "2026/SEC_2026_E_06_ReRiv_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "02e5268cd79ed736ab85d878bd1581fa803107a2afc375e39dae4e5c5c3114cb"
   },
   "2026/SEC_2026_E_05_E.pdf": {
     "circular_no": "SEC/2026/E/05",
@@ -106,7 +110,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "1aaf3f321cabb0ec1dd63ae032b4cc9b63a0d553e73d1f84ae9d2bb68fd33493"
   },
   "2026/SEC_2026_E_04_E.PDF": {
     "circular_no": "SEC/2026/E/04",
@@ -127,7 +132,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "5065b01b878dbe24de029c1f5eacbd01068a8b76b48598b58ffbfd3fd34ce34b"
   },
   "2026/SEC_2026_E_03_E.pdf": {
     "circular_no": "SEC/2026/E/03",
@@ -146,7 +152,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c083b6e7b30d9adebef1a480c2d1383ec3dbcc66b22563187357a850e8565294"
   },
   "2026/SEC_2026_E_02_E.pdf": {
     "circular_no": "SEC/2026/E/02",
@@ -165,7 +172,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "7b167fa0060d5f18714250cc2e59e954ae0b6ef126258dde4659fd5f61318e98"
   },
   "2026/SEC_2026_E_01_E.pdf": {
     "circular_no": "SEC/2026/E/01",
@@ -190,7 +198,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "48374b91068e1784b7c739cc00fa8702aee30e6eeef6145db6bdf7c05006c6a0"
   },
   "2025/SEC_2025_E_08_E.pdf": {
     "circular_no": "SEC/2025/E/08",
@@ -212,7 +221,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "e4782c6e27e5a8be7a215a00ac68fa71ba157d41b54ea1fa1caac93ed40670a4"
   },
   "2025/SEC_2025_E_07_E.pdf": {
     "circular_no": "SEC/2025/E/07",
@@ -231,7 +241,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "24f2d5833c3564a0ead44a815561a0a143668bd7fbbf911a076ee0fce02459b3"
   },
   "2025/SEC_2025_E_06_E.pdf": {
     "circular_no": "SEC/2025/E/06",
@@ -250,7 +261,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "9f12e9d45bbf40fb23d98bbf348bd3c5a63435a5853809dbc04471d61bcc5b74"
   },
   "2025/SEC_2025_E_05_E.PDF": {
     "circular_no": "SEC/2025/E/05",
@@ -274,7 +286,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "6aa2663c4a239b0ffc333e37e84ffef65b3897e7ca39a87700da465d49892c49"
   },
   "2025/SEC_2025_E_04_E.pdf": {
     "circular_no": "SEC/2025/E/04",
@@ -294,7 +307,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "6b2f950e97e7a01a37db960c59a28a65cc29a7470781a6f4fd428920531b6737"
   },
   "2023/SEC_2023_E_06-1_E.pdf": {
     "circular_no": "SEC/2023/E/06-1",
@@ -318,7 +332,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "eef351600ac51056bcf3ec8774587ceeb07a16d9b8b5ca12442477069bb1d88e"
   },
   "2025/SEC_2025_E_03_e.pdf": {
     "circular_no": "SEC/2025/E/03",
@@ -341,7 +356,8 @@
       "2026/SEC_2026_E_01_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "b55cf73864084243a7e3d955c8b23d88061afc0cb8dc2f3a1e695bd041c65a17"
   },
   "2025/SEC_2025_E_02_E.pdf": {
     "circular_no": "SEC/2025/E/02",
@@ -362,7 +378,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "8ec1aac0c884dee05f5bf5a79475e9009253ef5b2ba790922c468fe4b5b037cd"
   },
   "2025/SEC_2025_E_01_E.pdf": {
     "circular_no": "SEC/2025/E/01",
@@ -384,7 +401,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c29faa8bda76787acc8cc3cde8d14d2b0e9dd1ed3402ef6ffe4d3b229d34cbc8"
   },
   "2024/SEC_2024_E_01.pdf": {
     "circular_no": "SEC/2024/E/01",
@@ -404,7 +422,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "70e205391350459312d9c27a5ec13183f777da76513d281517314ff5e171cf37"
   },
   "2023/SEC_2023_E_06_E.pdf": {
     "circular_no": "SEC/2023/E/06",
@@ -427,7 +446,8 @@
       "2023/SEC_2023_E_06-1_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "787b567b68aa6b1a530a5c01860756f4421ce71b64e8de7ac988c9e58af707a6"
   },
   "2023/SEC_2023_E_05.pdf": {
     "circular_no": "SEC/2023/E/05",
@@ -451,7 +471,8 @@
       "2025/SEC_2025_E_05_E.PDF"
     ],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "f7cb904132342b438365c080d5b78cfc2eeeac48d50a9ec07052680b3c066674"
   },
   "2023/SEC_2023_02.pdf": {
     "circular_no": "SEC/2023/02",
@@ -471,7 +492,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c0cd8141df2d9179a5e82c87ecf28611ea30693c0a9d17d29f33753b9fc2a21a"
   },
   "2023/SEC_2023_E_04_E.pdf": {
     "circular_no": "SEC/2023/E/04",
@@ -490,7 +512,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "d1a27a7986a9130c3473896fb3037ebed36829898b767f63485f9c5df23ef881"
   },
   "2023/SEC_2023_E_03.pdf": {
     "circular_no": "SEC/2023/E/03",
@@ -511,7 +534,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "6a710e96f7a6bac09193b5f618942eb7867d4042b86042f9bc99b6abb073a762"
   },
   "2023/SEC_2023_E_02.pdf": {
     "circular_no": "SEC/2023/E/02",
@@ -530,7 +554,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "24bf955a09e81593b84cc4ba1fc77900fc903ab2e9ed705e7a4590795abaf2c7"
   },
   "2023/SEC_2023_E_01.pdf": {
     "circular_no": "SEC/2023/E/01",
@@ -551,7 +576,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "d84e018aa30d9ba91e02924b3f1a1bb6582498b5a972a8f7442edf1eec71d363"
   },
   "2023/SEC_2023_01.pdf": {
     "circular_no": "SEC/2023/01",
@@ -569,7 +595,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "be94490c6228852e332e832e0c8d12eeab9c3b04965e70aa90e62caaa1cb45ed"
   },
   "2022/SEC_2022_E_06(Rev).pdf": {
     "circular_no": "SEC/2022/E/06",
@@ -591,7 +618,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "bda7d64ed88faf30667e3559126b7cf3ac539f52203bceda08001d80d5840e9a"
   },
   "2022/SEC_2022_E_06.pdf": {
     "circular_no": "SEC/2022/E/06",
@@ -614,7 +642,8 @@
       "2022/SEC_2022_E_06(Rev).pdf"
     ],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c6c84f345c200e15546e1a89b9774c2ef325bf81e2504d4c6cff665189da0093"
   },
   "2022/SEC_2022_E_05(Rev).pdf": {
     "circular_no": "SEC/2022/E/05",
@@ -635,7 +664,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "42c762d87598213c424a816195b6adeffaadbf96429e7deaee39da1dad654138"
   },
   "2022/SEC_2022_E_05.pdf": {
     "circular_no": "SEC/2022/E/05",
@@ -658,7 +688,8 @@
       "2022/SEC_2022_E_05(Rev).pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "ac807172085675a9bf9d0ac466511cfbecae01b03c01a2939579d2564eb06cd7"
   },
   "2022/SEC_2022_E_04.pdf": {
     "circular_no": "SEC/2022/E/04",
@@ -679,7 +710,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "46a79bc039e2c32a919c5c259e00b59ef7420def75c504337666b619c5aa3316"
   },
   "2022/SEC_2022_E_03.pdf": {
     "circular_no": "SEC/2022/E/03",
@@ -702,7 +734,8 @@
       "2026/SEC_2026_E_04_E.PDF"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "60714ae2dd181cd100964f74f6d0b37ca6e72db42f066aa4d9af5d176d6c0b4b"
   },
   "2022/SEC_2022_E_02.pdf": {
     "circular_no": "SEC/2022/E/02",
@@ -725,7 +758,8 @@
       "2025/SEC_2025_E_02_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "6dcbffdbc41e6c4b47c0ebdcd5931035b219eec763f56a4c0d426efba804db72"
   },
   "2022/SEC_2022_E_01_E.pdf": {
     "circular_no": "SEC/2022/E/01",
@@ -744,7 +778,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "5473cfffb1cf33ca93c47186f476c83ea68aa604d5a809aab171f5744ea405fe"
   },
   "2021/SEC-2021-03_E.pdf": {
     "circular_no": "SEC/2021/03",
@@ -762,7 +797,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "b5f70576949b0ac030310190ef603134134e1cb8b41367d1fb3411d8a2b624e8"
   },
   "2020/SEC-2020-04_E.pdf": {
     "circular_no": "SEC/2020/04",
@@ -784,7 +820,8 @@
       "2022/SEC_2022_E_03.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "40cb80a729c5ff4f5849c47d8088b51a3b03b54628acba02e990f1c0f1ffdf96"
   },
   "2020/SEC-2020-03_Revised_E.pdf": {
     "circular_no": "SEC/2020/03",
@@ -808,7 +845,8 @@
       "2022/SEC_2022_E_02.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "dc562c386bf51e10de30c17b53a0fb471310838f17d3d932554557f4f39c6b12"
   },
   "2020/SEC-2020-03_E.pdf": {
     "circular_no": "SEC/2020/03",
@@ -830,7 +868,8 @@
       "2020/SEC-2020-03_Revised_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "8dd080c31539fe9b31ca9f526963b589c9d637a68fee9772d767ff340290a889"
   },
   "2020/SEC-2020-02_E.pdf": {
     "circular_no": "SEC/2020/02",
@@ -851,7 +890,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "b2c8c6c977fa95e3b417566af1b5bda12f4c829a3cc2109a6d0d75a1f881cb3a"
   },
   "2020/SEC-2020-01_E.pdf": {
     "circular_no": "SEC/2020/01",
@@ -876,7 +916,8 @@
     ],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "2685827f20f79b05aa31d300b1835f9e42deb1f863a495700007dec5ec4b018a"
   },
   "2019/SEC_2019_04_E.pdf": {
     "circular_no": "SEC/2019/04",
@@ -899,7 +940,8 @@
       "2020/SEC-2020-01_E.pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "79807e8f77525e52b0c11bda84d33197c87ef3663c829383d13f315bbc0417e4"
   },
   "2019/CGIR_2019_3_Ins_Cir_E.pdf": {
     "circular_no": "CGIR/2019/3",
@@ -918,7 +960,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "4ca06b88a440253fce8059bad5663688371edc6393e2ffcc524d2542f2e9fa5c"
   },
   "2019/Sec_2019_03_E.pdf": {
     "circular_no": "SEC/2019/03",
@@ -936,7 +979,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c311e55d0a13cabd98d126b4ec5f1e6ffd857a58a82bc430ee622100d96e8bb7"
   },
   "2019/SEC_2019_02_E.pdf": {
     "circular_no": "SEC/2019/02",
@@ -954,7 +998,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "788309feb140b6648cb5c5f36312dcfba4877c5670f538285a48370952da8840"
   },
   "2019/SEC_2019_01_E.pdf": {
     "circular_no": "SEC/2019/01",
@@ -972,7 +1017,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "9fd19b99dc3a287324355047fdcd6a9d5ec805a0f23c23f1b4a125604aae9fc9"
   },
   "2018/SEC_2018_07_E.pdf": {
     "circular_no": "SEC/2018/07",
@@ -990,7 +1036,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "b1e8167ab34273d7e1528f9c5bc8f50a7ea0c7cc409c6bf6957d62711f91d50f"
   },
   "2018/SEC_2018_06_E.pdf": {
     "circular_no": "SEC/2018/06",
@@ -1010,7 +1057,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "168cbdbb13ae1800c7e5e33418746537b9814b7482bcb0095188af7435dcc51b"
   },
   "2018/SEC_2018_03_E.pdf": {
     "circular_no": "SEC/2018/03",
@@ -1034,7 +1082,8 @@
       "2022/SEC_2022_E_06(Rev).pdf"
     ],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "c9a2e48caabdace63511576c1d79436d9c7d7512bd62de83a917de5e4175ae22"
   },
   "2018/SEC_2018_02_E.pdf": {
     "circular_no": "SEC/2018/02",
@@ -1053,7 +1102,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "55327aa52785ab4fc2e17106bd5ed0679ad099d259af1a734e892aa4b29ac87a"
   },
   "2018/SEC_2018_01_E.pdf": {
     "circular_no": "SEC/2018/01",
@@ -1074,7 +1124,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "af6ebffa141c03a47329c943cc3b6fbb48801ffd34659b03d7de6257297efe70"
   },
   "2017/SEC_2017_05_E.pdf": {
     "circular_no": "SEC/2017/05",
@@ -1098,7 +1149,8 @@
       "2018/SEC_2018_03_E.pdf"
     ],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "48d84b7ba07196c34fb853e88e39759b43e2baad63939ed082d3260e3d424ee4"
   },
   "2016/SEC_2016_05_E.pdf": {
     "circular_no": "SEC/2016/05",
@@ -1117,7 +1169,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "0330f73c87507a304049b26e6b227c329feea15711956aecbc8005a261fab20c"
   },
   "2016/SEC_2016_02_E.pdf": {
     "circular_no": "SEC/2016/02",
@@ -1135,7 +1188,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "3f820aba6e95158ff3c2ca3192855309207c617396c8f4f46434c623b6d18ac0"
   },
   "2016/SEC_2016_01_E.pdf": {
     "circular_no": "SEC/2016/01",
@@ -1154,7 +1208,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "9fd6f186896bdf3b7cbef621cc401463b129f9a3651287b59b86072c27c46759"
   },
   "2015/SEC_2015_10_E.pdf": {
     "circular_no": "SEC/2015/10",
@@ -1173,7 +1228,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "bf968c2ccac991e527faa48f248f260a0c5b406471639a044f4938cc88b6f00f"
   },
   "2015/SEC_2015_08_E.pdf": {
     "circular_no": "SEC/2015/08",
@@ -1193,7 +1249,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "d10276bd908fb9bc555394f300d5f9641ae78be42d88947e43bc0c3bb11520ea"
   },
   "2015/SEC_2015_05_E.pdf": {
     "circular_no": "SEC/2015/05",
@@ -1214,7 +1271,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "3dc2024223faadd8375d86a3105d233e3373b06f06164c65952ae61a95e8bcf8"
   },
   "2015/SEC_2015_04_E.pdf": {
     "circular_no": "SEC/2015/04",
@@ -1235,7 +1293,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "4e119540cc3cc50d880324c4916f10fb70b798de15c6efe6182a5c075193474b"
   },
   "2015/SEC_2015_03_E.pdf": {
     "circular_no": "SEC/Stamp Duty/2015/03",
@@ -1253,7 +1312,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "170ad2dcf549e3d77db383320ca17f8319055aa63e5f50eea0ad32d76550df4f"
   },
   "2015/SEC_2015_02_-_Withholding_tax_on_interest_paid_by_Banks_or_others_E.pdf": {
     "circular_no": "SEC/2015/02",
@@ -1274,7 +1334,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "1e916ec15d29c0d1e1606c36fe35699cab74052744e461d7c9fdf32e6e868110"
   },
   "2015/Sec-2015-01_-_VAT_Rate_Changes_Circular_-_2015_E.PDF": {
     "circular_no": "SEC/2015/01",
@@ -1292,7 +1353,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "0ab4f9e0fba08b048efa50cf0135e9937311abd2ba5fcf749eb1df3d064d6922"
   },
   "2014/Sec-2014-06.pdf": {
     "circular_no": "SEC/2014/06",
@@ -1313,7 +1375,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "a1a194d0a57206fe793dd9139005682734da471306a1e3c11daf83f34d6bc6b9"
   },
   "2014/Sec-2014-05.pdf": {
     "circular_no": "SEC/2014/05",
@@ -1334,7 +1397,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "81556e875601bc4bd05b29990c46fad9d3f4f760a2f5d4c6ed90d19d80032e90"
   },
   "2014/Sec-2014-02.pdf": {
     "circular_no": "SEC/2014/02",
@@ -1356,7 +1420,8 @@
       "2017/SEC_2017_05_E.pdf"
     ],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "4f5f1cbd7892ac6b8de6a60795afef28238dba5b5749ca1cc1adbdde0ee5576e"
   },
   "2013/PAYE_CirNo_SEC_2013_07_E.pdf": {
     "circular_no": "SEC/2013/07",
@@ -1375,7 +1440,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "b8d91777865e33de238d290d9afd8f0eb146789e301a4b391a76c670e56f6de7"
   },
   "2011/VATCirNo2011_07_E_.pdf": {
     "circular_no": "2011/07",
@@ -1394,7 +1460,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "197a588cdaca038ff3820a95b5f6577a693af55c90f8b7971140ab1f6f9ab20b"
   },
   "2011/Instructions.pdf": {
     "circular_no": "SEC/2011/06",
@@ -1413,7 +1480,8 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "35a1d344d0e86b95d4b9023d58e097f29875cbccb729b66ad16b2cb4128573f6"
   },
   "2008/Implementation of VAT on Special Projects.pdf": {
     "circular_no": "SEC/2008/03",
@@ -1432,6 +1500,7 @@
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
-    "reviewed": true
+    "reviewed": true,
+    "reviewed_sha256": "bbebed57957c6dabca74d13395d56b459fcf7b4830aa2e9c282439cc68e4ff00"
   }
 }
