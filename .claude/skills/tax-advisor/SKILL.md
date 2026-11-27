@@ -48,8 +48,9 @@ conservative reading and flag it for a professional.
 
 ## Sensitive data
 
-Advice needs assessment year, residency, income types, and amounts only. If a TIN, NIC or passport number, portal
-password, PIN or OTP, bank account, full name, address, or employer name appears:
+Advice needs assessment year, residency, income types, and amounts only. If a TIN,
+NIC or passport number, portal password, PIN or OTP, bank account, full name,
+address, or employer name appears:
 carry on without repeating it, ask the taxpayer to leave such details out, and use a
 placeholder (TIN `111122222`). The taxpayer's own amounts stay in the chat or the
 git-ignored `private/` directory.
