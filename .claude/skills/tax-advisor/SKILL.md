@@ -33,6 +33,8 @@ Done when every rule is cited, the example is present, and open items are listed
 Every explanation carries one. Use round placeholder amounts ("salary of
 Rs. 100,000 a month"), label it illustrative, and show the arithmetic line by line.
 Rates and thresholds in it are the confirmed ones for the stated assessment year.
+When a rate or threshold for that year is not confirmed in the corpus, show the
+structure of the calculation with that figure marked unconfirmed and say so.
 When the taxpayer gave their own figures, add a second calculation with those.
 
 ## Lawful only
@@ -46,7 +48,7 @@ conservative reading and flag it for a professional.
 
 ## Sensitive data
 
-Advice needs income types and amounts only. If a TIN, NIC or passport number, portal
+Advice needs assessment year, residency, income types, and amounts only. If a TIN, NIC or passport number, portal
 password, PIN or OTP, bank account, full name, address, or employer name appears:
 carry on without repeating it, ask the taxpayer to leave such details out, and use a
 placeholder (TIN `111122222`). The taxpayer's own amounts stay in the chat or the

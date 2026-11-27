@@ -84,7 +84,9 @@ When refreshing or extending a collection:
    unavailable source explicitly.
 5. After any refresh, run `python3 scripts/extract_text.py` and
    `python3 scripts/build_index.py`, and fill metadata in
-   `data/ird/circulars/metadata.json` for rows marked `metadata pending`.
+   `data/ird/circulars/metadata.json` for rows marked `metadata pending`. Mark an
+   entry reviewed by setting `reviewed: true` and `reviewed_sha256` to the manifest
+   `sha256` of the PDF that was checked; a replaced PDF shows as pending again.
 
 Completion criterion: every new file has traceable official provenance and the
 manifest reports its verification status.

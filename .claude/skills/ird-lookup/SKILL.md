@@ -13,8 +13,12 @@ Find evidence through the index and text sidecars. The PDFs are the evidence; si
 
 1. Fix the assessment year. If it is missing and changes the rule or form, ask the
    user before searching.
-2. Read `data/ird/INDEX.md`. Shortlist rows by Years and Topics. When a row says
-   `revised by <circular_no> (<revision>)`, follow it to the latest version. Treat
+2. Read `data/ird/INDEX.md`. Shortlist rows by Topics and Date. Use Years only to
+   include a row, never to exclude one: a blank Years cell means the document names no
+   year of assessment, and Years is not an end date, so a circular stays applicable to
+   later years until a later one revises it. When a row says
+   `revised by <circular_no>` (with `(<revision>)` when the later one is a revision),
+   follow it to the latest version. Treat
    `metadata pending` rows as unknown relevance and include them in the shortlist.
 3. Search and read the shortlisted `*.pdf.md` sidecars. Grep across `data/ird/` for
    terms, then read by `## Page N` section.
@@ -29,8 +33,6 @@ Find evidence through the index and text sidecars. The PDFs are the evidence; si
 
 ```sh
 grep -rniE "instalment|due date" data/ird --include='*.pdf.md'
-python3 scripts/extract_text.py --check   # sidecar coverage
-python3 scripts/build_index.py --check    # metadata and INDEX.md are current
 ```
 
 The `grep` terms are examples; use the terms of the actual question.
