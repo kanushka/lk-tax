@@ -14,3 +14,6 @@ personal/
 
 # Local agent workspace.
 .superpowers/
+
+# Atomic sidecar writes can leave one behind after a hard kill.
+*.tmp

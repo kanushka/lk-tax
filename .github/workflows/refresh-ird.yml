@@ -15,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v5
 
@@ -55,7 +55,9 @@ jobs:
         id: diff
         run: |
           # Timestamp-only manifest updates are noise; commit only new/changed documents.
-          changed=$(git diff -U0 -- data | grep -E '^[+-] ' | grep -vE '"(retrieved_at_utc|source_page_checked_at_utc)"' || true)
+          other=$(git diff --name-only -- data | grep -v 'manifest.json$' || true)
+          manifest=$(git diff -U0 -- 'data/*manifest.json' | grep -E '^[+-] ' | grep -vE '"(retrieved_at_utc|source_page_checked_at_utc)"' || true)
+          changed="$other$manifest"
           new_files=$(git status --porcelain --untracked-files=all -- data | grep -v 'manifest.json$' || true)
           if [ -z "$changed" ] && [ -z "$new_files" ]; then
             echo "No new IRD documents."
