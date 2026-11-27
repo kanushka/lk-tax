@@ -66,3 +66,9 @@ inventory if IRD changed the page structure or published a new assessment-year p
 Read [AGENTS.md](AGENTS.md) before using this repository to answer a tax question,
 perform a calculation, or extend the corpus. It defines the evidence workflow,
 assessment-year discipline, and safe hand-off rules for the future agent.
+
+## License
+
+Scripts, manifests, and notes are [MIT-licensed](LICENSE). Files under `data/ird/`
+are official IRD publications, reproduced for reference, and are not covered by
+that license.
