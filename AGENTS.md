@@ -13,7 +13,9 @@ For every tax answer, calculation, or filing draft:
 1. Identify the taxpayer's assessment year, residency, income types, and relevant
    facts. State any assumption that materially affects the result.
 2. Locate the applicable official evidence in `data/ird/` and its manifest. Prefer
-   the most recent material applicable to the selected assessment year.
+   the most recent material applicable to the selected assessment year. Start from
+   `data/ird/INDEX.md` and the `.pdf.md` text sidecars to find candidates, then
+   confirm every figure against the PDF itself (see `.claude/skills/ird-lookup/`).
 3. Check for later circulars, amendments, or revised versions before treating a
    historical document as operative. Preserve originals as history; explain the
    relationship only when the source establishes it.
@@ -80,6 +82,9 @@ When refreshing or extending a collection:
    historical evidence merely because a later document exists.
 4. Verify downloaded files against their manifest checksums and record any failed or
    unavailable source explicitly.
+5. After any refresh, run `python3 scripts/extract_text.py` and
+   `python3 scripts/build_index.py`, and fill metadata in
+   `data/ird/circulars/metadata.json` for rows marked `metadata pending`.
 
 Completion criterion: every new file has traceable official provenance and the
 manifest reports its verification status.
