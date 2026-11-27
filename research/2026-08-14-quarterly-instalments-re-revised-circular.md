@@ -7,7 +7,7 @@ Assessment year: 2026/2027
 
 The claimed change is real, but the official document is **not dated 14 August**.  The IRD circular index now lists **Circular No. SEC/2026/E/06 (Re-Revised), dated 12 August 2026**, titled *Circular to Taxpayers - Calculating Quarterly Income Tax Instalments w.e.f. Y/A 2026/2027*.  It expressly amends the 3 August original and 6 August revised circulars.
 
-It **does not move the first quarterly income-tax instalment payment due date**: it remains **on or before 15 August 2026**.  The material change for the immediate deadline is the supporting-attachment process: the earlier revised circular required the attachments by 15 August; the re-revised circular permits them until **30 November 2026**, and introduces the RAMIS upload route shown in the screenshot.
+It **does not move the first quarterly income-tax instalment payment due date**: it remains **on or before 15 August 2026**.  The material change for the immediate deadline is the supporting-attachment process: the earlier revised circular required the attachments by 15 August; the re-revised circular permits them until **30 November 2026**, and introduces a RAMIS upload route.
 
 ## What changed
 
@@ -46,4 +46,4 @@ For payment, the IRD's Online Tax Payment Platform (OTPP) says its member banks 
 - Official corroboration of payment date/type/period: [IRD Tax Calendar 2026](https://www.ird.gov.lk/en/publications/Tax%20Calendar_Documents/Tax_Calendar_2026_E.pdf), page 4 (15 August 2026, income-tax first instalment for Y/A 2026/2027; individual type 05, period 26271).
 - Official payment-channel guidance: [IRD Online Tax Payment Platform](https://www.ird.gov.lk/en/publications/SitePages/Online_Pay_OTP.aspx?menuid=141601).
 
-The new 12 August PDF was retrieved temporarily for inspection from the official URL; SHA-256: `4889d4b3647ef0d0d397e1669edd8db7c17611f27ea75087d7e73e2c5b98de23`.  It was not added to `data/ird/` or its manifest in this research task, so the established archive remains unchanged pending a normal source-refresh/verification run.
+The new 12 August PDF was retrieved temporarily for inspection from the official URL; SHA-256: `4889d4b3647ef0d0d397e1669edd8db7c17611f27ea75087d7e73e2c5b98de23`.  It has since been added to the archive by a normal refresh as `data/ird/circulars/2026/SEC_2026_E_06_ReRiv_E.pdf`; see the circulars manifest for its verified checksum.

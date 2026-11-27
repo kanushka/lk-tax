@@ -1,9 +1,13 @@
 # Sri Lanka Individual Tax Knowledge Base
 
-This repository is the evidence base for a future Sri Lanka individual tax-advisor
-agent. It stores official Inland Revenue Department (IRD) material in a local,
-refreshable, source-traceable form so the agent can explain tax topics, calculate
-estimates, and prepare draft filing data for a selected assessment year.
+An open, source-traceable archive of official Sri Lanka **Inland Revenue Department
+(IRD)** circulars and individual income-tax forms, with checksummed manifests and
+scripts to refresh them. Built as an evidence base for AI tax-advisor agents and for
+anyone who wants IRD material in one auditable place.
+
+> **Disclaimer:** Not legal or tax advice, and not affiliated with or endorsed by the
+> IRD. Documents are copies of public IRD publications; always confirm against
+> [ird.gov.lk](https://www.ird.gov.lk) before relying on them.
 
 ## Purpose
 
@@ -34,7 +38,7 @@ a historical rule remains in force.
 
 ## Current coverage
 
-- Circulars: 68 official IRD circulars from 2008–2026.
+- Circulars: 69 official IRD circulars from 2008–2026 (latest: SEC/2026/E/07).
 - Individual forms: complete 2025/2026 return pack plus estimated-tax and APIT/T.10
   material available on the IRD forms page at collection time.
 - 2026/2027 individual return forms: not yet published on the official forms page;
