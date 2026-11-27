@@ -1,0 +1,78 @@
+name: Refresh IRD corpus
+
+on:
+  schedule:
+    - cron: "30 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ird
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download circulars and forms
+        run: |
+          python3 scripts/download_ird_circulars.py
+          python3 scripts/download_ird_circulars.py --verify
+          python3 scripts/download_ird_individual_forms.py
+
+      - name: Fail on download errors
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          m = json.load(open("data/ird/circulars/manifest.json"))
+          if m["failed_count"]:
+              sys.exit(f"{m['failed_count']} circular downloads failed")
+          EOF
+
+      - name: Detect real changes
+        id: diff
+        run: |
+          # Timestamp-only manifest updates are noise; commit only new/changed documents.
+          changed=$(git diff -U0 -- data | grep -E '^[+-] ' | grep -vE '"(retrieved_at_utc|source_page_checked_at_utc)"' || true)
+          new_files=$(git status --porcelain --untracked-files=all -- data | grep -v 'manifest.json$' || true)
+          if [ -z "$changed" ] && [ -z "$new_files" ]; then
+            echo "No new IRD documents."
+            git checkout -- data
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "$new_files"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update README coverage count
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          python3 - <<'EOF'
+          import json, re
+          m = json.load(open("data/ird/circulars/manifest.json"))
+          latest = re.search(r"SEC/\d{4}/[A-Z]/\d+", m["entries"][0]["title"])
+          latest = f" (latest: {latest.group(0)})" if latest else ""
+          s = open("README.md").read()
+          s = re.sub(r"- Circulars: \d+ official IRD circulars from (\d{4})–\d{4}[^\n]*",
+                     lambda x: f"- Circulars: {m['downloaded_count']} official IRD circulars from {x.group(1)}–{m['entries'][0]['year']}{latest}.",
+                     s)
+          open("README.md", "w").write(s)
+          EOF
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data README.md
+          git commit -m "chore(ird): refresh corpus with new IRD documents"
+          git push

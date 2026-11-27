@@ -55,6 +55,9 @@ python3 scripts/download_ird_circulars.py --verify
 python3 scripts/download_ird_individual_forms.py
 ```
 
+A GitHub Actions workflow (`.github/workflows/refresh-ird.yml`) runs this refresh
+weekly and commits only when IRD publishes new or changed documents.
+
 After a refresh, inspect each manifest for failed downloads and update the source
 inventory if IRD changed the page structure or published a new assessment-year pack.
 
