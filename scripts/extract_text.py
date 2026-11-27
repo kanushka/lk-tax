@@ -23,8 +23,10 @@ from corpus import Document, iter_documents, sidecar_path  # noqa: E402
 MIN_TEXT_CHARS = 100
 MIN_WORD_TOKENS = 30
 MIN_COMMON_WORD_RATIO = 0.05
+MIN_ASCII_CHARS = 300
+MIN_WORD_CHAR_RATIO = 0.15
 COMMON_WORDS = frozenset(
-    "the of and to in for is on by be or as a this that with shall tax income".split()
+    "the of and to in for is on by be or as this that with shall tax income".split()
 )
 DISCLAIMER = "> Machine-extracted text for search. Confirm every figure against the PDF before relying on it."
 
@@ -36,6 +38,11 @@ class ExtractionError(Exception):
 def needs_ocr(text: str) -> bool:
     if len("".join(text.split())) < MIN_TEXT_CHARS:
         return True
+    ascii_chars = sum(1 for char in text if char.isascii() and not char.isspace())
+    if ascii_chars >= MIN_ASCII_CHARS:
+        word_chars = sum(len(word) for word in re.findall(r"[A-Za-z]{3,}", text))
+        if word_chars / ascii_chars < MIN_WORD_CHAR_RATIO:
+            return True
     words = [token.lower() for token in re.findall(r"[A-Za-z]+", text)]
     if len(words) < MIN_WORD_TOKENS:
         return False

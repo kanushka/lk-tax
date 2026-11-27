@@ -260,6 +260,26 @@ class ExtractTests(unittest.TestCase):
         sample = "6HFWLRQRIWKH,QODQG5HYHQXH$FW1RRI &LUFXODU1R6(& "
         self.assertTrue(extract_text.needs_ocr(sample * 12))
 
+    def test_needs_ocr_flags_symbol_soup(self):
+        sample = "m < 6 3 . 5 . ) / 1 % & ( + 1 ;  & F 5 1 1 6 C * - 1 1 ' - 1 ) 9 & + . 2 1 5 1 ) "
+        text = sample * 10
+        self.assertGreater(len("".join(text.split())), 300)
+        self.assertTrue(extract_text.needs_ocr(text))
+
+    def test_needs_ocr_accepts_mostly_non_ascii_page(self):
+        text = ("\u0d9a\u0dbb\u0dd4\u0dab\u0dcf\u0dc0 \u0b95\u0bb5\u0ba9\u0bbf\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd " * 40
+                + "Tax Return Form")
+        self.assertFalse(extract_text.needs_ocr(text))
+
+    def test_needs_ocr_accepts_trilingual_page_with_english_words(self):
+        english = (
+            "Please complete this return and attach the employment certificate issued by your employer. "
+            "Every taxpayer must provide the reference number printed on the notice together with the "
+            "signature and the date of submission for each assessment year listed below. "
+        )
+        text = english + "\u0d9a\u0dbb\u0dd4\u0dab\u0dcf\u0dc0 \u0b95\u0bb5\u0ba9\u0bbf\u0b95\u0bcd\u0b95 " * 60
+        self.assertFalse(extract_text.needs_ocr(text))
+
     def test_needs_ocr_accepts_english_paragraph(self):
         text = (
             "The tax shall be deducted by the person who pays the interest to a resident individual "
@@ -279,8 +299,9 @@ class ExtractTests(unittest.TestCase):
         self.assertFalse(extract_text.needs_ocr(text))
 
     def test_needs_ocr_ignores_numeric_tables(self):
-        text = " ".join(f"{i * 1234}.50" for i in range(40))
+        text = " ".join(f"{i * 1234}.50" for i in range(25))
         self.assertGreater(len("".join(text.split())), 100)
+        self.assertLess(len("".join(text.split())), 300)
         self.assertFalse(extract_text.needs_ocr(text))
 
     def test_page_count_below_one_raises(self):
