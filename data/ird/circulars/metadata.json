@@ -230,7 +230,7 @@
     "assessment_years": null,
     "revises": [],
     "revised_by": [],
-    "relevant_to_individuals": true,
+    "relevant_to_individuals": false,
     "reviewed": true
   },
   "2025/SEC_2025_E_06_E.pdf": {
@@ -586,7 +586,8 @@
     ],
     "assessment_years": null,
     "revises": [
-      "2022/SEC_2022_E_06.pdf"
+      "2022/SEC_2022_E_06.pdf",
+      "2018/SEC_2018_03_E.pdf"
     ],
     "revised_by": [],
     "relevant_to_individuals": false,
@@ -694,7 +695,9 @@
       "interest_dividends"
     ],
     "assessment_years": null,
-    "revises": [],
+    "revises": [
+      "2020/SEC-2020-04_E.pdf"
+    ],
     "revised_by": [
       "2026/SEC_2026_E_04_E.PDF"
     ],
@@ -715,7 +718,9 @@
       "interest_dividends"
     ],
     "assessment_years": null,
-    "revises": [],
+    "revises": [
+      "2020/SEC-2020-03_Revised_E.pdf"
+    ],
     "revised_by": [
       "2025/SEC_2025_E_02_E.pdf"
     ],
@@ -775,7 +780,9 @@
     ],
     "assessment_years": null,
     "revises": [],
-    "revised_by": [],
+    "revised_by": [
+      "2022/SEC_2022_E_03.pdf"
+    ],
     "relevant_to_individuals": true,
     "reviewed": true
   },
@@ -797,7 +804,9 @@
     "revises": [
       "2020/SEC-2020-03_E.pdf"
     ],
-    "revised_by": [],
+    "revised_by": [
+      "2022/SEC_2022_E_02.pdf"
+    ],
     "relevant_to_individuals": true,
     "reviewed": true
   },
@@ -923,9 +932,7 @@
     "topics": [
       "indirect_tax"
     ],
-    "assessment_years": [
-      "2018/2019"
-    ],
+    "assessment_years": null,
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": false,
@@ -1023,7 +1030,8 @@
       "2017/SEC_2017_05_E.pdf"
     ],
     "revised_by": [
-      "2022/SEC_2022_E_06.pdf"
+      "2022/SEC_2022_E_06.pdf",
+      "2022/SEC_2022_E_06(Rev).pdf"
     ],
     "relevant_to_individuals": true,
     "reviewed": true
@@ -1184,7 +1192,7 @@
     ],
     "revises": [],
     "revised_by": [],
-    "relevant_to_individuals": true,
+    "relevant_to_individuals": false,
     "reviewed": true
   },
   "2015/SEC_2015_05_E.pdf": {
@@ -1291,7 +1299,7 @@
     "revision": null,
     "date": "2014-07-25",
     "subject": "Instructions to Employers in the Government Sector on taxation of employment income and PAYE deductions",
-    "summary": "PAYE guidance for public sector employers under the Inland Revenue Act as amended by Act No 8 of 2014; the page 1 text does not state a year of assessment.",
+    "summary": "",
     "tax_types": [
       "apit"
     ],
@@ -1299,7 +1307,9 @@
       "employment",
       "withholding"
     ],
-    "assessment_years": null,
+    "assessment_years": [
+      "2014/2015"
+    ],
     "revises": [],
     "revised_by": [],
     "relevant_to_individuals": true,
@@ -1353,7 +1363,7 @@
     "revision": null,
     "date": "2013-09-01",
     "subject": "Instructions to Employers in the Public Sector: taxation of employment income and PAYE deductions",
-    "summary": "PAYE guidance for public sector employers under the Inland Revenue Act as amended by Acts No. 22 of 2011 and 18 of 2013; no year of assessment is stated.",
+    "summary": "PAYE guidance for public sector employers under the Inland Revenue Act as amended by Acts No.",
     "tax_types": [
       "apit"
     ],
